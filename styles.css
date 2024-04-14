@@ -76,3 +76,29 @@ img {
     width: 100%;
     height: auto;
 } */
+
+.instagram-media {
+    /* margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.service h2 {
+    margin-bottom: 100px;
+
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu h2 {
+    margin-bottom: 100px;
+}
