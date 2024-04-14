@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Shippori+Mincho+B1&display=swap');
-
+/* 
 body * {
     outline: red 1px solid;
-  }
+  } */
 
 body {
     font-family: "Shippori Mincho B1", serif;
@@ -47,6 +47,29 @@ img {
 }
 
 .hero {
+    
+    background-image: url(/img/dishes.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.info {
+    /* background-image: url(/img/dishes.jpeg); */
     background-image: url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");
     background-position: center;
     background-size: cover;
@@ -55,7 +78,7 @@ img {
     z-index: 2;
 }
 
-.hero::after {
+.info::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -75,31 +98,6 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
 
 }
-/* 
-.d-block {
-    width: 100%;
-    height: auto;
-} */
-
-/* .instagram-media {
-    /* margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    width: 10px;
-    height: auto;
-    margin-left: auto ;  
-	margin-right: auto; */
-    /* display: block;
-    margin-left: 100px;
-    background-color: rgba(0, 0, 0, 0.5); */
-
-/* }
- */
-
 
 .instagram-media {
     /* position: static !important; */
@@ -109,6 +107,14 @@ img {
     margin: 0 auto;
 }
 
+.map {
+    min-width: initial !important;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
 .wrap {
     display: flex;
     /* flex-wrap: wrap; */
@@ -116,32 +122,8 @@ img {
 
 }
 
-#instagram-embed-0 {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    /* text-align: center; */
-} */
-
-.embed {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    /* text-align: center; */
-
-}
-
 .service h2 {
     margin-bottom: 100px;
-
 }
 
 .carousel {
@@ -151,4 +133,43 @@ img {
 
 .menu h2 {
     margin-bottom: 100px;
+}
+
+.info .display-4 {
+    margin-bottom: 100px;
+    /* color: red; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.info h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* color: red; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.info .place {
+    margin-bottom: 20px;
+    /* color: red; */
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+}
+
+.bi-instagram {
+    font-size:100px;
+    /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
+    background:  linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #3cba92 0px 0px 10px;
+}
+
+.bi-instagram:hover {
+    /* background-image:  */
+    /* background:  linear-gradient(60deg, #fbed96 0%, #abecd6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #3cba92 0px 0px 10px; */
+    background-position: 100% 0;
 }
