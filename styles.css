@@ -102,9 +102,18 @@ img {
 
 
 .instagram-media {
-    position: static !important;
-    max-width: initial !important;
+    /* position: static !important; */
+    /* max-width: initial !important; */
     min-width: initial !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
 }
 
 #instagram-embed-0 {
