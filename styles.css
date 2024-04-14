@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Shippori+Mincho+B1&display=swap');
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); */
 /* 
 body * {
     outline: red 1px solid;
@@ -48,7 +49,7 @@ img {
 
 .hero {
     
-    background-image: url(/img/dishes.jpeg);
+    background-image: url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -70,7 +71,7 @@ img {
 
 .info {
     /* background-image: url(/img/dishes.jpeg); */
-    background-image: url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");
+    background-image: url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -163,6 +164,8 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: #3cba92 0px 0px 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .bi-instagram:hover {
@@ -173,3 +176,7 @@ img {
     text-shadow: #3cba92 0px 0px 10px; */
     background-position: 100% 0;
 }
+
+/* .instaicon {
+    background-image: url(/img/instagram.svg);
+} */
