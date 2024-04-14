@@ -36,12 +36,13 @@ img {
     height: auto;
     /* width: 50px;
     height: 50px; */
-    /* border-radius: 50%; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 9%;
 }
 
 .hero {
-    background-image: url(/img/kokura.jpg);
+    background-image:url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
