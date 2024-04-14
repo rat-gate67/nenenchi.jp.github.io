@@ -41,7 +41,7 @@ img {
 }
 
 .hero {
-    background-image: url(/img/kokura.jpg);
+    background-image: url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
