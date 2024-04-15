@@ -5,12 +5,18 @@ body * {
     outline: red 1px solid;
   } */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Shippori Mincho B1", serif;
     font-weight: 400;
     font-style: normal;
     background-color: #fff;
-    margin: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     /* min-width: 0 !important; */
   
 }
@@ -53,12 +59,19 @@ img {
 
 } */
 
+.navbar {
+    margin: 0;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+}
+
 .hero {
     padding: 5%;
     position: relative;
 }
 
-.hero::before {
+.hero::after {
     content: '';
     display: block;
     position: fixed;
@@ -79,7 +92,7 @@ img {
 }
 
 
-.info::before {
+.info::after {
     content: '';
     display: block;
     position: fixed;
