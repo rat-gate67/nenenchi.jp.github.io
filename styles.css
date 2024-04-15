@@ -8,7 +8,7 @@ body * {
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: #fff;
+    overflow-x: hidden;
     /* margin: 0; */
     /* padding: 0; */
     /* min-width: 0 !important; */
