@@ -8,6 +8,7 @@ body * {
 * {
     margin: 0;
     padding: 0;
+    
     /* overflow-x: hidden; */
 }
 
@@ -89,14 +90,17 @@ img {
 .hero {
     padding: 5%;
     position: relative;
-}
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;
 
+}
+/* 
 .hero::before {
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     content: '';
     display: block;
-    /* position: absolute; */
+    position: absolute;
     position: fixed;
+    position: sticky;
     z-index: -1;
     top:0;
     left: 0;
@@ -106,31 +110,43 @@ img {
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;
     background-size: cover;
-} 
+}   */
+
+.fix-bg {
+        position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+}
 
 .info {
     padding: 5%;
     position: relative;
     /* height: auto; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");   
+
 }
 
-
+/* 
 .info::before {
     background-attachment: fixed;
     content: '';
     display: block;
     position: absolute;
-    /* position: fixed; */
+    position: fixed;
     z-index: -1;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");   
     background-size: cover;
-}
+} */
 
 /* .info::after { */
     /* content: ''; */
@@ -220,7 +236,7 @@ img {
 .info h3 {
     /* padding-top: ; */
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     /* color: red; */
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
@@ -247,24 +263,25 @@ img {
     padding: 10px;
     border-radius: 20%;
     color: rgb(46, 98, 32);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+    box-shadow:none;
     width: 50px;
     height: 50px;
 } 
 
-.bi-instagram:hover {
+/* .bi-instagram:hover {
     box-shadow: 0 0 20px rgba(0, 56, 19, 0.185);
-}
+} */
 
 .info .instaicon {
     /* background-color: aqua; */
     /* border-radius: 80%; */
     /* padding-left: 50px;
     padding-right: 50px; */
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     /* color: gray; */
     
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .daylink {
@@ -278,4 +295,12 @@ img {
 .business-day-link {
     width: 200px;
     height: 200px;
+}
+
+
+.footer {
+    
+    padding:  0;
+    /* height: 60px; */
+    text-align: center;
 }
