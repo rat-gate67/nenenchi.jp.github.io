@@ -72,71 +72,44 @@ img {
     background-color: #fff;
 
 }
-/* 
-.hero {
-    width: 100%;
-    height: auto;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ; 
-    background-size: cover;
-    mask-repeat: no-repeat;
-    mask-position: center;
-} */
-
 
 .hero {
     padding: 5%;
-    position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;
-    background-size: cover;
-    /* width: 100vh;
-    height: 100vh; */
 }
+
 /* 
-.hero::before {
-    background-attachment: fixed;
-    content: '';
-    display: block;
-    position: absolute;
+.hero {
+    padding: 5%;
     position: fixed;
-    position: sticky;
-    z-index: -1;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;
     background-size: cover;
-}   */
+    width: 100vh;
+    height: 100vh;
+}
 
 .fix-bg {
     position: relative;
     min-height: 100%;
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    /* z-index: 2; */
-}
+    z-index: 2;
+} */
 
 .info {
     padding: 5%;
-    position: relative;
+    /* position: relative; */
     /* height: auto; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");   
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");    */
     /* width: 100vh; */
-    background-size: 100% 100%;
+    background-size: auto 100%;
     height: 100vh;
 }
 
-/* 
-.info::before {
-    background-attachment: fixed;
+
+.hero::before {
+    /* background-attachment: fixed; */
     content: '';
     display: block;
     position: absolute;
@@ -148,9 +121,8 @@ img {
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");   
-    background-size: cover;
-} */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;     background-size: cover;
+}
 
 /* .info::after { */
     /* content: ''; */
@@ -303,7 +275,7 @@ img {
 
 
 .footer {
-    
+    background-color: #fff;
     padding:  0;
     /* height: 60px; */
     text-align: center;
