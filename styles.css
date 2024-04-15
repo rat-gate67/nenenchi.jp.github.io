@@ -78,6 +78,7 @@ img {
 }
 
 .hero::after {
+    background-attachment: fixed;
     content: '';
     display: block;
     /* position: fixed; */
@@ -100,6 +101,7 @@ img {
 
 
 .info::after {
+    background-attachment: fixed;
     content: '';
     display: block;
     /* position: fixed; */
