@@ -97,6 +97,7 @@ img {
 .info {
     padding: 5%;
     position: relative;
+    height: auto;
 }
 
 
@@ -203,6 +204,7 @@ img {
 }
 
 .info h3 {
+    /* padding-top: ; */
     margin-top: 30px;
     margin-bottom: 20px;
     /* color: red; */
@@ -230,26 +232,36 @@ img {
     /* text-shadow: #3cba92 0px 0px 10px; */
     padding: 10px;
     border-radius: 20%;
+    color: rgb(46, 98, 32);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    /* width: 100%;
-    height: 100%; */ 
+    width: 50px;
+    height: 50px;
 } 
 
 .bi-instagram:hover {
-    /* background-image:  */
-    /* background:  linear-gradient(60deg, #fbed96 0%, #abecd6 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: #3cba92 0px 0px 10px; */
-    background-position: 100% 0;
+    box-shadow: 0 0 20px rgba(0, 56, 19, 0.185);
 }
 
 .info .instaicon {
     /* background-color: aqua; */
     /* border-radius: 80%; */
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
     margin-bottom: auto;
+    /* color: gray; */
     
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+}
+
+.daylink {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+
+}
+
+.business-day-link {
+    width: 200px;
+    height: 200px;
 }
