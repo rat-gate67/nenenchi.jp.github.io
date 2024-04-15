@@ -280,3 +280,27 @@ img {
     /* height: 60px; */
     text-align: center;
 }
+
+.text-ani {
+    /* margin:0 1em 3em; */
+    /* border-radius:0.5em;    角丸 */
+    background:fff;        /*背景色*/
+    overflow:hidden;
+}
+
+.text-ani p {
+    margin:0;
+    font-size:1.5em;         /*文字サイズ*/
+    animation: flowing 30s linear infinite;    /*アニメーション*/
+    transform:translateX(100%);                /*最初の位置*/
+}
+
+.text-ani a {
+    color:#7d4848;
+    text-decoration:none;
+}
+
+@keyframes flowing {
+  100% {
+    transform:translateX(-100%);    /*終了の位置*/
+  }
