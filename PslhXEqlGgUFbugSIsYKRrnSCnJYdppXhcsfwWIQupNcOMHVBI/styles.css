@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Shippori+Mincho+B1&display=swap');
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); */
+/* 
+body * {
+    outline: red 1px solid;
+  } */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    /* overflow-x: hidden; */
+}
+
+body {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    overflow-x: hidden;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* min-width: 0 !important; */
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.display-4 {
+    /* font-family: "M PLUS 1 Code", monospace; */
+    font-weight: 500;
+    font-style: normal;
+    /* box-shadow: 0, 0 10px rgba(0, 0, 0, 1); */
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+}
+
+.hero p {
+    
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+section {
+    padding: 50px 50px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    /* width: 50px;
+    height: 50px; */
+    display: inline-block;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 9%;
+}
+
+/* .hero::before{
+
+} */
+
+
+.navbar {
+    margin: 0;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top:0;
+    background-color: #fff;
+
+}
+
+.hero {
+    padding: 5%;
+}
+
+/* 
+.hero {
+    padding: 5%;
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+.fix-bg {
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+} */
+
+.info {
+    padding: 5%;
+    /* position: relative; */
+    /* height: auto; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/kokura.jpg?raw=true");    */
+    /* width: 100vh; */
+    height: 100vh;
+    /* padding: auto; */
+}
+
+
+.hero::before {
+    /* background-attachment: fixed; */
+    content: '';
+    display: block;
+    position: absolute;
+    position: fixed;
+    z-index: -2;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/dishes.jpeg) ;     background-size: cover;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/rat-gate67/nenechi.github.io/blob/master/img/dishes.jpeg?raw=true") ;     background-size: cover; */
+}
+
+/* .info::after { */
+    /* content: ''; */
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* top: 0; */
+    /* left: 0; */
+    /* background-color: rgba(10, 0, 0, 0.); */
+    /* z-index: -1; */
+/* } */
+
+.description {
+    padding-top: ;
+    /* background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+
+}
+
+.instagram-media {
+    /* position: static !important; */
+    /* max-width: initial !important; */
+    min-width: initial !important;
+    display: block;
+    margin: 0 auto;
+}
+/* 
+.map {
+    min-width: initial !important;
+    display: block;
+    margin: 100px auto;
+    width: 100%;
+    height: 100%;
+} */
+.map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* 比率を4:3に固定 */
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+
+}
+
+.service {
+    background-color: #fff;
+}
+
+.menu {
+    background-color: #fff;
+}
+
+.service h2 {
+    margin-bottom: 100px;
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu h2 {
+    margin-bottom: 100px;
+}
+
+.info .display-4 {
+    margin-bottom: 100px;
+    /* color: red; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.info h3 {
+    /* padding-top: ; */
+    margin-top: 30px;
+    margin-bottom: auto;
+    /* color: red; */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.info .place {
+    margin-top: auto;
+    margin-bottom: 20px;
+    /* height: 100%; */
+    /* color: red; */
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+}
+
+.bi-instagram {
+    
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+    /* font-size:100px; */
+    /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
+    /* background:  linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* text-shadow: #3cba92 0px 0px 10px; */
+    padding: 10px;
+    border-radius: 20%;
+    color: rgb(46, 98, 32);
+    
+    box-shadow:none;
+    width: 50px;
+    height: 50px;
+} 
+
+/* .bi-instagram:hover {
+    box-shadow: 0 0 20px rgba(0, 56, 19, 0.185);
+} */
+
+.info .instaicon {
+    /* background-color: aqua; */
+    /* border-radius: 80%; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* margin-bottom: auto; */
+    /* color: gray; */
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.daylink {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+
+}
+
+.business-day-link {
+    width: 200px;
+    height: 200px;
+}
+
+
+.footer {
+    background-color: #fff;
+    padding:  0;
+    /* height: 60px; */
+    text-align: center;
+}
+
+.text-ani {
+    /* margin:0 1em 3em; */
+    /* border-radius:0.5em;    角丸 */
+    background:fff;        /*背景色*/
+    overflow:hidden;
+}
+
+.text-ani p {
+    margin:0;
+    font-size:1.5em;         /*文字サイズ*/
+    animation: flowing 30s linear infinite;    /*アニメーション*/
+    transform:translateX(100%);                /*最初の位置*/
+}
+
+.text-ani a {
+    color:#7d4848;
+    text-decoration:none;
+}
+
+@keyframes flowing {
+  100% {
+    transform:translateX(-100%);    /*終了の位置*/
+  }
